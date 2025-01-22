@@ -1,0 +1,11 @@
+{% extends 'users/base.html' %}
+{% block title%} Normal User Dashboard {% endblock %}
+
+{% block content %}
+
+<div class="text-center">
+    <h1>Welcome, {{user.username}}</h1>
+    <p>You are logged in as a normal user</p>
+    <a class="btn btn-danger" href="{%url 'logout' %}">Logout</a>
+</div>
+{% endblock %}
