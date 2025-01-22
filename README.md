@@ -9,6 +9,18 @@ This project is a lightweight and efficient **User Login Management System** bui
 - Responsive front-end using Bootstrap
 - Scalable and easy-to-extend architecture
 
+- **Role-Based Redirection**:
+  - `Normal User`: Redirected to the Home page.
+  - `Hotel Admin`: Redirected to the Hotel Admin Dashboard.
+  - `Main Admin`: Redirected to the Main Admin Dashboard.
+  
+- **User Authentication**:
+  - Secure signup and login using Django's built-in authentication system.
+  - Password validation and hashed storage.
+  
+- **Bootstrap Integration**:
+  - Clean and responsive user interface.
+
 ## Technologies Used
 - **Django**: Backend framework for handling logic and server-side processing.
 - **Bootstrap**: Front-end framework for responsive design.
